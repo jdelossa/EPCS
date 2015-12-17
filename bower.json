@@ -1,0 +1,9 @@
+{
+  "name": "EPCS ID Proofing Scheduler",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "fullcalendar": "~2.5.0",
+    "parsleyjs": "~2.1.3"
+  }
+}
