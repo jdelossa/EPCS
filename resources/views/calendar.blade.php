@@ -10,159 +10,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/css/all.css" >
-    <link rel="stylesheet" href="/css/app.css" >
-
-    <!-- Full Calendar -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // page is now ready, initialize the calendar...
-            $('#calendar').fullCalendar({
-                weekends: false,
-                header: {
-                    left: 'prev',
-                    center: 'title',
-                    right: 'next'
-                },
-                defaultDate: '2016-01-04',
-                aspectRatio: 1.2,
-                eventRender:  function(event, element){
-                    if(event.title == 'High Availability') {
-                        element.append("<p class='event-title high'>High <br>Availability</p>")
-                    } else if (event.title == "Medium Availability") {
-                        element.append("<p class='event-title medium'>Medium <br>Availability</p>")
-                    } else {
-                        element.append("<p class='event-title low'>Low <br>Availability</p>")
-                    }
-                },
-                events: [
-                    {
-                        start: '2016-01-04',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-
-                    },
-                    {
-                        start: '2016-01-05',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-06',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-07',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '2',
-                        title: 'Medium Availability',
-                        start: '2016-01-11',
-                        rendering: 'background',
-                        color: '#f0f1db'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-12',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '2',
-                        title: 'Medium Availability',
-                        start: '2016-01-13',
-                        rendering: 'background',
-                        color: '#f0f1db'
-                    },
-                    {
-                        id: '2',
-                        title: 'Medium Availability',
-                        start: '2016-01-14',
-                        rendering: 'background',
-                        color: '#f0f1db'
-                    },
-
-                    {
-                        id: '3',
-                        title: 'Low Availability',
-                        start: '2016-01-18',
-                        rendering: 'background',
-                        color: '#f5cfce'
-                    },
-                    {
-                        id: '3',
-                        title: 'Low Availability',
-                        start: '2016-01-19',
-                        rendering: 'background',
-                        color: '#f5cfce'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-20',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-21',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    },
-                    {
-                        id: '2',
-                        title: 'Medium Availability',
-                        start: '2016-01-25',
-                        rendering: 'background',
-                        color: '#f0f1db'
-                    },
-                    {
-                        id: '3',
-                        title: 'Low Availability',
-                        start: '2016-01-26',
-                        rendering: 'background',
-                        color: '#f5cfce'
-                    },
-                    {
-                        id: '3',
-                        title: 'Low Availability',
-                        start: '2016-01-27',
-                        rendering: 'background',
-                        color: '#f5cfce'
-                    },
-                    {
-                        id: '1',
-                        title: 'High Availability',
-                        start: '2016-01-28',
-                        rendering: 'background',
-                        color: '#F3FFF8'
-                    }
-                ],
-                dayClick: function(date, jsEvent, view) {
-                    $("#fullCalModal").modal("show");
-                },
-            });
-        });
-    </script>
-    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.min.css">
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/moment/moment.js"></script>
-    <script src="bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
-
-    <!-- Parsley -->
-    <link rel="stylesheet" href="bower_components/parsleyjs/src/parsley.css">
-
+    <link rel="stylesheet" href="/css/all.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/all.js"></script>
 </head>
 <body>
 <!--[if lte IE 8]>
@@ -204,7 +55,7 @@
 
         <div class="col-md-9 col-md-pull-3">
             <div class="calendar-container">
-                {{ $reservations }}
+                {{--{{$reservations}}--}}
                 <div id="calendar"></div>
             </div>
         </div>
@@ -226,6 +77,12 @@
             </div>
             <div id="modalBody" class="modal-body">
                 <div class="row">
+                    <div class="col-sm-6">
+                        <h4>Step 1: When do you want to come in?</h4>
+
+                        {!! Form::open['route' => ['reservations', $reservations] !!}}
+                        {!! Form::open(['route' => ['postComment', $submission->id], 'class' => 'form']) !!}
+                    </div>
                     <div class="col-sm-6">
                         <h4>Step 1: When do you want to come in?</h4>
                         <div class="selection-radio">
@@ -287,37 +144,6 @@
 </div>
 
 
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<script src="bower_components/parsleyjs/dist/parsley.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-
-        // On Modal Close
-        $('#fullCalModal').on('hidden.bs.modal', function (e) {
-            // Reset validation and inputs
-            $('#form').parsley().reset();
-            $('#form').find('input, textarea').val('');
-            $('#form').find('select').val('Select');
-        });
-
-        // On Modal Open
-        $('#fullCalModal').on('shown.bs.modal', function (e) {
-            // Parsley
-            $('#form').parsley();
-
-            // Submit Form
-            $('.submit').click(function(){
-                $('#form').submit();
-            });
-
-            // Disable
-            $('input[type=radio][disabled]').parent().addClass('zero').css('background', '#DADADA');
-
-        });
-
-    });
-</script>
 
 </body>
 </html>

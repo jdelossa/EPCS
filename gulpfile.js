@@ -12,17 +12,21 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
-o
-    mix.styles([
-        'bootstrap/dist/css/bootstrap.min.css',
-        'bootstrap/dist/css/bootstrap-theme.min.css',
-        'fullcalendar/dist/css/fullcalendar.min.css',
-        'parsleyjs/dist/css/fullcalendar.min.css',
-    ], null, 'resources/assets/bower')
 
-    //mix.scripts([
-    //    '../assets/bower/jquery/dist/jquery.js',
-    //    '../assets/bower/bootstrap/dist/js/bootstrap.js'
-    //], 'public/js.vendor.js')
+    mix.styles([
+        '/bower/bootstrap/dist/css/bootstrap.min.css',
+        '/bower/bootstrap/dist/css/bootstrap-theme.min.css',
+        '/bower/fullcalendar/dist/fullcalendar.min.css',
+        '/bower/parsleyjs/src/parsley.css',
+        'less/app.less'
+    ], null, 'resources/assets');
+
+    mix.scripts([
+        '/bower/jquery/dist/jquery.min.js',
+        '/bower/bootstrap/dist/js/bootstrap.min.js',
+        '/bower/moment/moment.js',
+        '/bower/parsleyjs/dist/parsley.min.js',
+        '/bower/fullcalendar/dist/fullcalendar.min.js',
+        '/js/main.js'
+    ], null, 'resources/assets')
 });
