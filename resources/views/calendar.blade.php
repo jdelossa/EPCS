@@ -80,8 +80,7 @@
                     <div class="col-sm-6">
                         <h4>Step 1: When do you want to come in?</h4>
 
-                        {!! Form::open['route' => ['reservations', $reservations] !!}}
-                        {!! Form::open(['route' => ['postComment', $submission->id], 'class' => 'form']) !!}
+                       
                     </div>
                     <div class="col-sm-6">
                         <h4>Step 1: When do you want to come in?</h4>
