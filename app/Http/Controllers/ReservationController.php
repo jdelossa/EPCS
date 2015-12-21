@@ -2,51 +2,27 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use App\Reservation;
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
+use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaScript;
 
 class ReservationController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display the calendar with reservations
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index()
     {
-        $reservations = Reservation::all();
+        // Returns all reservations as an array, grouped by date, with their reservation count.
+        $reservations = DB::table('reservations')->select(DB::raw('count(*) as count, date'))->groupBy('date')->get();
 
-        return view('calendar', compact('reservations'));
-    }
+        // Embed the reservation array into an javascript object
+        JavaScript::put(['reservations' => $reservations,]);
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-
-    public function getReservationsByDate($date)
-    {
-        return Reservation::where('slot', $date)->get();
+        return view('reservation.calendar');
     }
 
 }

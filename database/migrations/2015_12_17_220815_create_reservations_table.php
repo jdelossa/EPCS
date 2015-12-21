@@ -17,9 +17,10 @@ class CreateReservationsTable extends Migration
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('speciality');
+            $table->string('specialty');
             $table->string('email')->unique();
-            $table->datetime('slot');
+            $table->date('date');
+            $table->time('time');
             $table->timestamps();
         });
     }
