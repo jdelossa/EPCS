@@ -4,806 +4,20 @@
     <list default="true" id="756522ac-0ae1-41b6-ad83-897f80444c0a" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/database/seeds/ReservationSeeder.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/calendar.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Policies/.gitkeep" afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Events/Event.php" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Jobs/Job.php" afterPath="$PROJECT_DIR$/app/Jobs/Job.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Reservation.php" afterPath="$PROJECT_DIR$/app/Reservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/compile.php" afterPath="$PROJECT_DIR$/config/compile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_12_17_220815_create_reservations_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_12_17_220815_create_reservations_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpspec.yml" afterPath="$PROJECT_DIR$/phpspec.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css" afterPath="$PROJECT_DIR$/public/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css.map" afterPath="$PROJECT_DIR$/public/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css.map" afterPath="$PROJECT_DIR$/public/css/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/all.js" afterPath="$PROJECT_DIR$/public/js/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/all.js.map" afterPath="$PROJECT_DIR$/public/js/all.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/README.md" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/configBridge.json" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/configBridge.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/.jscsrc" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/.jscsrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/.csscomb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/.csslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/reset-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/table-row.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/responsive-embed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/less/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/MyGet.ps1" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/MyGet.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/bootstrap.less.nuspec" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/bootstrap.less.nuspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/bootstrap.nuspec" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/package.js" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/bootstrap/package.json" afterPath="$PROJECT_DIR$/resources/assets/bower/bootstrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/CHANGELOG.md" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/LICENSE.txt" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/README.md" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.css" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.min.css" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.print.css" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/fullcalendar.print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/gcal.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/gcal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang-all.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang-all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-ma.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-ma.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-sa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-sa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-tn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar-tn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/bg.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/cs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/da.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/de-at.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/de-at.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/de.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/el.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-au.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-gb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/es.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fr-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/he.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hu.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/id.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/is.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/it.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ja.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ko.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/lt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/lv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/nb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/nl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pt-br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ru.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sr-cyrl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sr-cyrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/th.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/tr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/uk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/vi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/zh-cn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/zh-tw.js" afterPath="$PROJECT_DIR$/resources/assets/bower/fullcalendar/dist/lang/zh-tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/MIT-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/parseJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/var/nonce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/var/rquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/core/var/rsingleTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/defaultDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/cssExpand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/getStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/isHidden.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/rmargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/accepts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/var/data_priv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/data/var/data_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/intro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/intro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/offset.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/outro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/outro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/queue.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/arr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/class2type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/hasOwn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/indexOf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/pnum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/rnotwhite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/slice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/strundefined.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/var/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/resources/assets/bower/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/CHANGELOG.md" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/README.md" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/MIT-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/parseJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/var/nonce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/var/rquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/core/var/rsingleTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/defaultDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/cssExpand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/getStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/isHidden.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/rmargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/accepts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/var/data_priv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/data/var/data_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/intro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/intro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/offset.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/outro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/outro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/queue.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/arr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/class2type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/hasOwn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/indexOf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/pnum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/rnotwhite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/slice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/strundefined.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/var/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/af.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-ma.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-ma.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-sa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-sa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-tn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar-tn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/az.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/be.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/be.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bg.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cy.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/da.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/de-at.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/de-at.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/de.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/el.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-au.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-gb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/eo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/es.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/et.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/eu.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fr-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fy.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/fy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/gl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/he.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hu.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hy-am.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/hy-am.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/id.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/is.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/it.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ja.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/jv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/jv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ka.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/km.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ko.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/me.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/me.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/mk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ml.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/mr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/mr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ms-my.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ms-my.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ms.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/my.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/my.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ne.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ne.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/nn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pt-br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ru.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/si.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sq.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sr-cyrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ta.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/ta.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/th.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tl-ph.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tl-ph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzm-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzm.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/tzm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/uk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/uz.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/uz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/vi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/zh-cn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/locale/zh-tw.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/locale/zh-tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/locales.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/locales.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/locales.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/locales.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment-with-locales.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment-with-locales.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment-with-locales.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment-with-locales.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/moment.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/min/tests.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/min/tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/moment.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/moment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/check-overflow.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/check-overflow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/date-from-array.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/date-from-array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-anything.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-anything.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-array.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-object.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string-and-array.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string-and-array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string-and-format.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string-and-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/from-string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/local.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/local.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/parsing-flags.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/parsing-flags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/utc.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/utc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/valid.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/create/valid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/abs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/abs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/add-subtract.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/add-subtract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/as.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/as.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/bubble.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/bubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/constructor.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/constructor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/create.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/create.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/duration.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/duration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/get.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/get.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/humanize.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/humanize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/iso-string.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/iso-string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/prototype.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/duration/prototype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/format/format.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/format/format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/calendar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/constructor.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/constructor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/en.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/formats.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/formats.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/invalid.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/invalid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/lists.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/lists.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/locale.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/locale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/locales.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/locales.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/ordinal.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/ordinal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/pre-post-format.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/pre-post-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/prototype.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/prototype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/relative.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/relative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/set.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/locale/set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/add-subtract.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/add-subtract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/calendar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/clone.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/clone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/compare.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/compare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/constructor.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/constructor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/diff.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/diff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/format.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/from.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/from.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/get-set.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/get-set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/locale.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/locale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/min-max.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/min-max.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/moment.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/moment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/prototype.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/prototype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/start-end-of.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/start-end-of.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/to-type.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/to-type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/to.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/to.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/valid.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/moment/valid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/parse/regex.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/parse/regex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/parse/token.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/parse/token.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/aliases.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/aliases.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/constants.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-month.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-month.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-week.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-week.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-year.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/day-of-year.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/hour.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/hour.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/millisecond.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/millisecond.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/minute.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/minute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/month.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/month.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/offset.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/quarter.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/quarter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/second.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/second.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/timestamp.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/timestamp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/timezone.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/timezone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/units.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/units.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/week-year.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/week-year.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/week.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/week.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/year.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/units/year.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/abs-ceil.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/abs-ceil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/abs-floor.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/abs-floor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/compare-arrays.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/compare-arrays.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/defaults.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/deprecate.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/deprecate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/extend.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/extend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/has-own-prop.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/has-own-prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/hooks.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/hooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/is-array.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/is-array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/is-date.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/is-date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/map.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/to-int.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/to-int.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/zero-fill.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/lib/utils/zero-fill.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/af.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-ma.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-ma.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-sa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-sa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-tn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar-tn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/az.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/be.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/be.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bg.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cy.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/da.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/de-at.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/de-at.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/de.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/el.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-au.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-gb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/eo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/es.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/et.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/eu.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fo.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fr-ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fy.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/fy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/gl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/he.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hu.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hy-am.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/hy-am.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/id.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/is.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/it.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ja.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/jv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/jv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ka.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/km.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ko.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/me.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/me.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/mk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ml.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/mr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/mr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ms-my.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ms-my.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ms.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/my.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/my.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nb.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ne.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ne.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/nn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pt-br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pt.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ru.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/si.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sq.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sr-cyrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ta.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/ta.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/th.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tl-ph.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tl-ph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzm-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzm.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/tzm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/uk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/uz.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/uz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/vi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/zh-cn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/zh-tw.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/locale/zh-tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/src/moment.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/src/moment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/templates/amd-named.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/templates/amd-named.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/templates/amd.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/templates/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/templates/globals.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/templates/globals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/templates/locale-header.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/templates/locale-header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/moment/templates/test-header.js" afterPath="$PROJECT_DIR$/resources/assets/bower/moment/templates/test-header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/.bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.remote.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.remote.min.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/dist/parsley.remote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/config.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/plugin/bind.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/plugin/bind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/plugin/remote.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/plugin/remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/comparison.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/comparison.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/dateiso.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/dateiso.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/luhn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/luhn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/notequalto.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/notequalto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/words.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/extra/validator/words.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ar.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/bg.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ca.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/cs.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/cs.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/cs.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/da.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/de.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/de.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/de.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/en.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/en.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/en.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/es.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fa.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fi.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fi.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fi.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fr.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fr.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/he.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/he.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/he.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/id.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/id.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/id.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/it.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/it.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/it.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ja.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ko.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ms_MY.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ms_MY.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ms_MY.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ms_MY.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/nl.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/nl.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/nl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/no.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/pl.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/pt-br.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ro.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ro.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ro.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ru.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ru.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ru.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sq.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sv.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sv.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sv.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/th.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/tr.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/uk.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/uk.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/uk.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_cn.extra.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_cn.extra.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_cn.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_tw.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/i18n/zh_tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/main.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley.css" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/abstract.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/abstract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/defaults.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/factory.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/factory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/factory/constraint.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/factory/constraint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/field.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/form.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/multiple.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/multiple.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/pubsub.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/pubsub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/ui.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/utils.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/validator.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/parsley/validator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/wrap/append.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/wrap/append.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/wrap/prepend.js" afterPath="$PROJECT_DIR$/resources/assets/bower/parsleyjs/src/wrap/prepend.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/main.js" afterPath="$PROJECT_DIR$/resources/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" afterPath="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" />
     </list>
     <ignored path="epcs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -825,45 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calendar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/reservation/calendar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/reservation/templates/default.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1450719000000" expanded="true" signature="841:1238" placeholder="..." />
-                <marker date="1450719000000" expanded="true" signature="1069:1227" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60761">
-              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReservationController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReservationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.278481">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -871,8 +54,28 @@
       <file leaf-file-name="ReservationsTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.416667">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state vertical-scroll-proportion="-13.916667">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/reservation/calendar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -881,39 +84,21 @@
       <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state vertical-scroll-proportion="10.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <marker date="1450731451000" expanded="true" signature="764:962" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="777:932" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="851:931" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1108:1306" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1121:1276" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1195:1275" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1467:1665" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1480:1635" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1554:1634" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1827:2025" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1840:1995" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="1914:1994" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2173:2371" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2186:2341" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2260:2340" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2532:2730" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2545:2700" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="2619:2699" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="3402:3946" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="3414:3916" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="3480:3915" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4070:4568" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4082:4538" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4147:4537" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4690:5188" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4702:5158" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="4765:5157" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="5321:5824" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="5334:5794" placeholder="..." />
-                <marker date="1450731451000" expanded="true" signature="5395:5793" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3028:3572" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3040:3542" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3106:3541" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3696:4194" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3708:4164" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="3773:4163" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="4316:4814" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="4328:4784" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="4391:4783" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="4947:5450" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="4960:5420" placeholder="..." />
+                <marker date="1450817976000" expanded="true" signature="5021:5419" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -922,8 +107,18 @@
       <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.474359">
-              <caret line="146" column="36" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="36" />
+            <state vertical-scroll-proportion="-18.75641">
+              <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -947,22 +142,22 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Reservation.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_17_220815_create_reservations_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/database/seeds/ReservationSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
         <option value="$PROJECT_DIR$/resources/views/calendar.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/reservation/templates/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
       </list>
     </option>
   </component>
@@ -976,11 +171,14 @@
       </GulpfileState>
     </gulpfiles>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="790" />
-    <option name="y" value="23" />
-    <option name="width" value="1132" />
+    <option name="x" value="641" />
+    <option name="y" value="24" />
+    <option name="width" value="1282" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1025,80 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reservation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modals" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1445,14 +569,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="790" y="23" width="1132" height="991" extended-state="0" />
+    <frame x="641" y="24" width="1282" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27915195" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20904836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1463,10 +588,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22113366" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1514,6 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.041666">
           <caret line="43" column="39" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1707,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_17_220815_create_reservations_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39099526">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48387095">
@@ -1723,33 +868,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07109005">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reservation/calendar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.416667">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/reservation/templates/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.19549763">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <marker date="1450719000000" expanded="true" signature="841:1238" placeholder="..." />
@@ -1758,66 +879,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_17_220815_create_reservations_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <marker date="1450731451000" expanded="true" signature="764:962" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="777:932" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="851:931" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1108:1306" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1121:1276" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1195:1275" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1467:1665" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1480:1635" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1554:1634" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1827:2025" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1840:1995" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="1914:1994" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2173:2371" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2186:2341" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2260:2340" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2532:2730" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2545:2700" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="2619:2699" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="3402:3946" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="3414:3916" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="3480:3915" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4070:4568" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4082:4538" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4147:4537" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4690:5188" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4702:5158" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="4765:5157" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="5321:5824" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="5334:5794" placeholder="..." />
-            <marker date="1450731451000" expanded="true" signature="5395:5793" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.39099526">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.474359">
-          <caret line="146" column="36" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="36" />
+        <state vertical-scroll-proportion="-18.75641">
+          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state vertical-scroll-proportion="-13.916667">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60761">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reservation/calendar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1450817976000" expanded="true" signature="3028:3572" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="3040:3542" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="3106:3541" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="3696:4194" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="3708:4164" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="3773:4163" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="4316:4814" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="4328:4784" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="4391:4783" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="4947:5450" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="4960:5420" placeholder="..." />
+            <marker date="1450817976000" expanded="true" signature="5021:5419" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.278481">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

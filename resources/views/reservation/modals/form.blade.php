@@ -11,47 +11,36 @@
                     <div class="col-md-6">
                         <h4>Step 1: When do you want to come in?</h4>
                         <div class="selection-radio">
-                            {!! Form::radio('time-selection', 'option1', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option1', '8:00am - 9:00am')!!}<span class="spots-left">9</span>
 
-                            {!! Form::radio('time-selection', 'option2', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option2', '9:00am - 10:00am')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="option1" checked>
+                                8:00am - 9:00am <span class="spots-left">(<span class="option1"></span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option3', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option3', '10:00am - 11:00am')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="option2">
+                                9:00am - 10:00am <span class="spots-left">(<span class="option2"></span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option4', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option4', '11:00am - 12:00pm')!!}<span class="spots-left">9</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="option3">
+                                10:00am - 11:00am <span class="spots-left">(<span class="option3"></span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option5', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option5', '12:00pm - 1:00pm')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="option4">
+                                11:00am - 12:00pm <span class="spots-left">(<span class="option4"></span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option6', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option6', '1:00pm - 2:00pm')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="option5">
+                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5"></span> spots left)</span>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="time-selection" value="option6" disabled>
+                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6"></span> spots left)</span>
+                            </label>
 
 
                         </div>

@@ -10,7 +10,6 @@
         <div class="col-md-9 col-md-pull-3">
             <div class="calendar-container">
                 <div id="calendar"></div>
-                {{--{{$reservations}}--}}
             </div>
         </div>
     </div>

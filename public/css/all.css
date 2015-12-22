@@ -149,11 +149,9 @@ body {
 /* Modal */
 .spots-left {
   float: right;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 11px;
   position: relative;
-    bottom: 30px;
-    right: 15px;
+    top: 3px;
 }
 /* Modal Radio Buttons */
 .selection-radio {
@@ -170,7 +168,7 @@ body {
   background: #ebebeb;
   border-color: #cccccc;
   width: 100%;
-  padding: 10px 10px 10px 35px;
+  padding: 10px 10px 10px 15px;
 
   text-transform: uppercase;
   font-weight: 700;
@@ -194,11 +192,8 @@ body {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
 .selection-radio input[type="radio"] {
-  position: relative;
-    left: 10px;
-    top: 25px;
+  margin-right: 10px;
 }
 .verify-identity label {
   padding-top: 10px;
