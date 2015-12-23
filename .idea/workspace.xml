@@ -8,7 +8,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/calendar.blade.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css" afterPath="$PROJECT_DIR$/public/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css.map" afterPath="$PROJECT_DIR$/public/css/all.css.map" />
@@ -16,7 +15,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/all.js.map" afterPath="$PROJECT_DIR$/public/js/all.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/main.js" afterPath="$PROJECT_DIR$/resources/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" afterPath="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" />
     </list>
     <ignored path="epcs.iws" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="ReservationController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.278481">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.3164557">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
@@ -54,8 +52,8 @@
       <file leaf-file-name="ReservationsTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.916667">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state vertical-scroll-proportion="-16.416666">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,8 +62,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state vertical-scroll-proportion="-6.111111">
+              <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -84,21 +82,21 @@
       <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
               <folding>
-                <marker date="1450817976000" expanded="true" signature="3028:3572" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="3040:3542" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="3106:3541" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="3696:4194" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="3708:4164" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="3773:4163" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="4316:4814" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="4328:4784" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="4391:4783" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="4947:5450" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="4960:5420" placeholder="..." />
-                <marker date="1450817976000" expanded="true" signature="5021:5419" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3148:3692" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3160:3662" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3226:3661" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3816:4314" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3828:4284" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="3893:4283" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="4436:4934" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="4448:4904" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="4511:4903" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="5067:5570" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="5080:5540" placeholder="..." />
+                <marker date="1450896531000" expanded="true" signature="5141:5539" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +105,8 @@
       <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75641">
-              <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+            <state vertical-scroll-proportion="-3.7564104">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -154,9 +152,10 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/reservation/calendar.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ReservationsRequest.php" />
         <option value="$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php" />
       </list>
     </option>
@@ -223,6 +222,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="epcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reservation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,6 +521,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -525,7 +568,10 @@
       <recent name="$PROJECT_DIR$/resources/assets/bower/moment" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.ReservationController.php">
+    <configuration default="false" name="ReservationController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -554,6 +600,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.ReservationController.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.ReservationController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -804,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10663507">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4443128">
@@ -889,16 +935,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75641">
-          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+        <state vertical-scroll-proportion="-3.7564104">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.916667">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10663507">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -911,11 +965,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ReservationsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.416666">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state vertical-scroll-proportion="-6.111111">
+          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+          <folding>
+            <marker date="1450896531000" expanded="true" signature="3148:3692" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="3160:3662" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="3226:3661" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="3816:4314" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="3828:4284" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="3893:4283" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="4436:4934" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="4448:4904" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="4511:4903" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="5067:5570" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="5080:5540" placeholder="..." />
+            <marker date="1450896531000" expanded="true" signature="5141:5539" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,31 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reservation/modals/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1450817976000" expanded="true" signature="3028:3572" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="3040:3542" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="3106:3541" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="3696:4194" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="3708:4164" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="3773:4163" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="4316:4814" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="4328:4784" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="4391:4783" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="4947:5450" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="4960:5420" placeholder="..." />
-            <marker date="1450817976000" expanded="true" signature="5021:5419" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReservationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.278481">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.3164557">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="e#40#62#0#PHP" expanded="true" />
           </folding>

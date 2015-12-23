@@ -120,7 +120,7 @@ body {
   color: #a82e24;
 }
 .zero {
-  color: #909090;
+  color: #909090 !important;
 }
 
 .high-bg, .medium-bg, .low-bg, .zero-bg {
@@ -141,7 +141,6 @@ body {
   background-color: #F5CFCE;
 
 }
-
 .zero-bg {
   background-color: gray;
 }
@@ -176,6 +175,10 @@ body {
   color: #3C3333;
 }
 
+.selection-radio .disabled {
+  background: rgb(218, 218, 218) !important;
+  color: #909090 !important;
+}
 .selection-radio label:nth-child(odd) {
   background: #F9F7F7;
 }

@@ -6,40 +6,41 @@
                 <h3 id="modalTitle" class="modal-title"><span class="date-selected"></span></h3>
             </div>
             <div id="modalBody" class="modal-body">
-                {!! Form::open(['class' => 'form']) !!}
+                {!! Form::open(['route'=> 'reservations.store', 'class' => 'form']) !!}
                 <div class="row">
                     <div class="col-md-6">
                         <h4>Step 1: When do you want to come in?</h4>
+                        <input type="hidden" name="json-date" class="json-date">
                         <div class="selection-radio">
 
                             <label>
-                                <input type="radio" name="time-selection" value="option1" checked>
-                                8:00am - 9:00am <span class="spots-left">(<span class="option1"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="8:00:00" checked>
+                                8:00am - 9:00am <span class="spots-left">(<span class="option1">40</span> spots left)</span>
                             </label>
 
                             <label>
-                                <input type="radio" name="time-selection" value="option2">
-                                9:00am - 10:00am <span class="spots-left">(<span class="option2"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="9:00:00">
+                                9:00am - 10:00am <span class="spots-left">(<span class="option2">40</span> spots left)</span>
                             </label>
 
                             <label>
-                                <input type="radio" name="time-selection" value="option3">
-                                10:00am - 11:00am <span class="spots-left">(<span class="option3"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="10:00:00">
+                                10:00am - 11:00am <span class="spots-left">(<span class="option3">40</span> spots left)</span>
                             </label>
 
                             <label>
-                                <input type="radio" name="time-selection" value="option4">
-                                11:00am - 12:00pm <span class="spots-left">(<span class="option4"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="11:00:00">
+                                11:00am - 12:00pm <span class="spots-left">(<span class="option4">40</span> spots left)</span>
                             </label>
 
                             <label>
-                                <input type="radio" name="time-selection" value="option5">
-                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="12:00:00">
+                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5">40</span> spots left)</span>
                             </label>
 
                             <label>
-                                <input type="radio" name="time-selection" value="option6" disabled>
-                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6"></span> spots left)</span>
+                                <input type="radio" name="time-selection" value="13:00:00">
+                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6">40</span> spots left)</span>
                             </label>
 
 

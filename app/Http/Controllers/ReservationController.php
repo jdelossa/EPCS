@@ -7,9 +7,10 @@ use App\Reservation;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaScript;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Redirect;
+use Symfony\Component\HttpFoundation\Session\Session;
+use Illuminate\Support\Facades\Input;
+use Illuminate\View\View;
 
 class ReservationController extends Controller
 {
@@ -29,19 +30,34 @@ class ReservationController extends Controller
         return view('reservation.calendar');
     }
 
+    public function create()
+    {
+        return view('reservation.calendar');
+    }
+
     public function store()
     {
-        $reservations = new Reservation;
-        $reservations->physician_first_name       = Input::get('physician_first_name');
-        $reservations->physician_last_name        = Input::get('physician_last_name');
-        $reservations->physician_speciality       = Input::get('physician_speciality');
-        $reservations->physician_email            = Input::get('physician_email');
+        $rules = array(
+            'time_selection'            => 'required',
+            'physician_first_name'      => 'required',
+            'physician_last_name'       => 'required',
+            'physician_specialty'       => 'required',
+            'physician_email'           => 'required|email'
+        );
 
-        $reservations->save();
+        // store
+        $reservation = new Reservation;
+        $reservation->date            = Input::get('json-date');
+        $reservation->time            = Input::get('time-selection');
+        $reservation->first_name      = Input::get('physician-first-name');
+        $reservation->last_name       = Input::get('physician-last-name');
+        $reservation->specialty       = Input::get('physician-special');
+        $reservation->email           = Input::get('physician-email');
+        $reservation->save();
 
         // redirect
-        Session::flash('message', 'Successfully created nerd!');
-        return Redirect::to('reservation.calendar');
+        return redirect('/');
+
     }
 
     public function getTimes()

@@ -4,7 +4,7 @@ $(document).ready(function(){
         // Reset validation and inputs
         $('form').parsley().reset();
         $('form').find('input[type="text"], input[type="email"], input[type="radio"]').val('');
-        $('.spots-left').find('span').remove();
+        //$('input').removeAttr('disabled').parent().removeClass('disabled');
     });
 
     $('#fullCalModal').on('shown.bs.modal', function (e) {
@@ -14,8 +14,7 @@ $(document).ready(function(){
         $('.submit').click(function(){
             $('form').submit();
         });
-        // Disable
-        $('input[type=radio][disabled]').parent().addClass('zero').css('background', '#DADADA');
+        //$('input[value="option6"]').attr('disabled', 'disabled').parent().addClass('disabled');
     });
 
     var calendar = {
@@ -63,7 +62,8 @@ $(document).ready(function(){
                     $("#fullCalModal").modal("show");
 
                     $('#fullCalModal').on('shown.bs.modal', function (e) {
-                        $('.date-selected').html('Chosen Date: ' + date.format());
+                        $('.date-selected').html('Chosen Date: ' + date.format('MMMM d, 2016'));
+                        $('.json-date').val(date.format());
                         $.ajax({
                            url: '/times',
                            type: 'GET',
@@ -83,30 +83,56 @@ $(document).ready(function(){
                                        var option6 = "13:00:00";
                                        var count = 40;
 
-                                       switch (true) {
-                                           case ((value.time == option1)):
-                                               $('.option1').append(count - value.count);
-                                               break;
-                                           case ((value.time == option2)):
-                                               $('.option2').append(count - value.count);
-                                               break;
-                                           case ((value.time == option3)):
-                                               $('.option3').append(count - value.count);
-                                               break;
-                                           case ((value.time == option4)):
-                                               $('.option4').append(count - value.count);
-                                               break;
-                                           case ((value.time == option5)):
-                                               $('.option5').append(count - value.count);
-                                               break;
-                                           case ((value.time == option6)):
-                                               $('.option6').append(count - value.count);
-                                               break;
+                                       if ((value.count) < count) {
+                                           switch (true) {
+                                               case ((value.time == option1)):
+                                                   $('.option1').empty().append(count - value.count);
+                                                   break;
+                                               case ((value.time == option2)):
+                                                   $('.option2').empty().append(count - value.count);
+                                                   break;
+                                               case ((value.time == option3)):
+                                                   $('.option3').empty().append(count - value.count);
+                                                   break;
+                                               case ((value.time == option4)):
+                                                   $('.option4').empty().append(count - value.count);
+                                                   break;
+                                               case ((value.time == option5)):
+                                                   $('.option5').empty().append(count - value.count);
+                                                   break;
+                                               case ((value.time == option6)):
+                                                   $('.option6').empty().append(count - value.count);
+                                                   break;
+                                           }
+                                       }
+                                       else if ((value.count) >= count) {
+                                           switch (true) {
+                                               case ((value.time == option1)):
+                                                   $('.option1').empty().append(0);
+                                                   break;
+                                               case ((value.time == option2)):
+                                                   $('.option2').empty().append(0);
+                                                   break;
+                                               case ((value.time == option3)):
+                                                   $('.option3').empty().append(0);
+                                                   break;
+                                               case ((value.time == option4)):
+                                                   $('.option4').empty().append(0);
+                                                   break;
+                                               case ((value.time == option5)):
+                                                   $('.option5').empty().append(0);
+                                                   break;
+                                               case ((value.time == option6)):
+                                                   $('.option6').empty().append(0);
+                                                   break;
+                                           }
                                        }
                                    }
                                });
                            }
                         });
+
+
                     });
                 }
             });
