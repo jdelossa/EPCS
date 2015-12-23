@@ -16,5 +16,15 @@
 </div>
 
 @include('reservation.modals.form')
+@include('reservation.modals.confirmation')
+
+@if (session('status'))
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#confirmationModal").modal("show");
+        });
+    </script>
+@endif
+
 
 @endsection

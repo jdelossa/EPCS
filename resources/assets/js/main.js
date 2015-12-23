@@ -62,14 +62,15 @@ $(document).ready(function(){
                     $("#fullCalModal").modal("show");
 
                     $('#fullCalModal').on('shown.bs.modal', function (e) {
-                        $('.date-selected').html('Chosen Date: ' + date.format('MMMM d, 2016'));
-                        $('.json-date').val(date.format());
                         $.ajax({
                            url: '/times',
                            type: 'GET',
                            dataType: "json",
 
                            success: function (data) {
+                               console.log(data);
+                               $('.date-selected').html('Chosen Date: ' + date.format());
+                               $('.json-date').val(date.format());
                                $.each(data, function (key, value) {
 
                                    if ((date.format()) === value.date) {

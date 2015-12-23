@@ -7,10 +7,7 @@ use App\Reservation;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaScript;
-use Illuminate\Support\Facades\Redirect;
-use Symfony\Component\HttpFoundation\Session\Session;
 use Illuminate\Support\Facades\Input;
-use Illuminate\View\View;
 
 class ReservationController extends Controller
 {
@@ -30,13 +27,9 @@ class ReservationController extends Controller
         return view('reservation.calendar');
     }
 
-    public function create()
-    {
-        return view('reservation.calendar');
-    }
-
     public function store()
     {
+        // validation
         $rules = array(
             'time_selection'            => 'required',
             'physician_first_name'      => 'required',
@@ -56,8 +49,7 @@ class ReservationController extends Controller
         $reservation->save();
 
         // redirect
-        return redirect('/');
-
+        return redirect('/')->with('status', 'Thank you! You will recieve a confirmation email shortly.');
     }
 
     public function getTimes()
