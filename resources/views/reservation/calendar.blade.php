@@ -18,9 +18,9 @@
 @include('reservation.modals.form')
 @include('reservation.modals.confirmation')
 
-@if (session('status'))
-    <script type="text/javascript">
-        $(document).ready(function() {
+@if(!empty(Session::get('status')) && Session::get('status') == 1)
+    <script>
+        $(function() {
             $("#confirmationModal").modal("show");
         });
     </script>

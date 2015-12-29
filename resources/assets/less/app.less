@@ -167,6 +167,9 @@ body {
 .modal-body {
   margin-bottom: 40px;
 }
+#confirmationModal .modal-body {
+  margin-bottom: 0;
+}
 .modal-body h4 {
   color: #3e7698;
 }
@@ -233,13 +236,15 @@ footer p {
 }
 @media (max-width: 1200px){
   .event-title {
-    margin-top: 22px;
+    padding-top: 25px;
+  }
+  .modal-body {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 991px){
   .event-title {
     font-size: 12px;
-    margin-top: 25px;
   }
 }
 @media (max-width: 767px){
@@ -251,7 +256,7 @@ footer p {
     padding: 15px 15px;
   }
   .event-title {
-    margin-top: 15px;
+    padding-top: 20px;
   }
   .modal-body .btn-primary {
     position: static;
@@ -262,7 +267,6 @@ footer p {
 @media (max-width: 640px){
   .event-title {
     font-size: 11px;
-    margin-top: 20px;
   }
 }
 @media (max-width: 480px){
@@ -278,7 +282,6 @@ footer p {
   }
   .event-title {
     font-size: 8px;
-    margin-top: 20px;
   }
 }
 
