@@ -10,12 +10,21 @@
         <div class="col-md-9 col-md-pull-3">
             <div class="calendar-container">
                 <div id="calendar"></div>
-                {{--{{$reservations}}--}}
             </div>
         </div>
     </div>
 </div>
 
 @include('reservation.modals.form')
+@include('reservation.modals.confirmation')
+
+@if (session('status'))
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#confirmationModal").modal("show");
+        });
+    </script>
+@endif
+
 
 @endsection

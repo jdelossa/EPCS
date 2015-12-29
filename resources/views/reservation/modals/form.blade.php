@@ -6,52 +6,42 @@
                 <h3 id="modalTitle" class="modal-title"><span class="date-selected"></span></h3>
             </div>
             <div id="modalBody" class="modal-body">
-                {!! Form::open(['class' => 'form']) !!}
+                {!! Form::open(['route'=> 'reservations.store', 'class' => 'form']) !!}
                 <div class="row">
                     <div class="col-md-6">
                         <h4>Step 1: When do you want to come in?</h4>
+                        <input type="hidden" name="json-date" class="json-date">
                         <div class="selection-radio">
-                            {!! Form::radio('time-selection', 'option1', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option1', '8:00am - 9:00am')!!}<span class="spots-left">9</span>
 
-                            {!! Form::radio('time-selection', 'option2', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option2', '9:00am - 10:00am')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="8:00:00" checked>
+                                8:00am - 9:00am <span class="spots-left">(<span class="option1">40</span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option3', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option3', '10:00am - 11:00am')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="9:00:00">
+                                9:00am - 10:00am <span class="spots-left">(<span class="option2">40</span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option4', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option4', '11:00am - 12:00pm')!!}<span class="spots-left">9</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="10:00:00">
+                                10:00am - 11:00am <span class="spots-left">(<span class="option3">40</span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option5', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option5', '12:00pm - 1:00pm')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="11:00:00">
+                                11:00am - 12:00pm <span class="spots-left">(<span class="option4">40</span> spots left)</span>
+                            </label>
 
-                            {!! Form::radio('time-selection', 'option6', false,
-                                array(
-                                    'required'
-                                ))
-                            !!}
-                            {!! Form::label('option6', '1:00pm - 2:00pm')!!}<span class="spots-left">(20 spots left)</span>
+                            <label>
+                                <input type="radio" name="time-selection" value="12:00:00">
+                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5">40</span> spots left)</span>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="time-selection" value="13:00:00">
+                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6">40</span> spots left)</span>
+                            </label>
 
 
                         </div>
