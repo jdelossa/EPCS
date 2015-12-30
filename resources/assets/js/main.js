@@ -1,30 +1,49 @@
 $(document).ready(function(){
-    // On Modal Close
+
     $('#fullCalModal').on('hidden.bs.modal', function (e) {
-        // Reset validation and inputs
         $('form').parsley().reset();
-        $('form').find('input[type="text"], input[type="email"], input[type="radio"]').val('');
-        //$('input').removeAttr('disabled').parent().removeClass('disabled');
+        $('form').find('input[type="text"], input[type="email"]').val('');
     });
 
     $('#fullCalModal').on('shown.bs.modal', function (e) {
-        // Parsley
         $('form').parsley();
-        // Submit Form
-        $('.submit').click(function(){
-            $('form').submit();
-        });
-        //$('input[value="option6"]').attr('disabled', 'disabled').parent().addClass('disabled');
+    });
+
+    $('#reservation_form').submit(function( event ) {
+        event.preventDefault();
+
+        if ( $(this).parsley().isValid() ) {
+
+            $.ajaxSetup({
+                headers:
+                {
+                    'X-CSRF-Token': $('input[name="_token"]').val()
+                }
+            });
+
+            $.ajax({
+                type: 'post',
+                url: '/reservations',
+                data: $('#reservation_form').serialize(),
+                dataType: 'json',
+                success: function(data){
+                    /* If the AJAX request was successful, that means no exceptions
+                        were thrown and the record was saved. So this is where you
+                        can signal to the user it was a success.  For example,
+                        you can replace the form with a fade-in success message.
+                     */
+                },
+                error: function(data){
+                    var errors = data.responseJSON;
+                }
+            });
+        }
     });
 
     var calendar = {
         init : function(){
             this.reservations = reservations;
-            this.formatReservations();
             this.build();
-        },
-        formatReservations : function() {
-
         },
         build : function() {
             $('#calendar').fullCalendar({
@@ -57,7 +76,6 @@ $(document).ready(function(){
                             break;
                     }
                 },
-
                 dayClick: function(date, jsEvent, view) {
                     $("#fullCalModal").modal("show");
 
@@ -66,15 +84,12 @@ $(document).ready(function(){
                            url: '/times',
                            type: 'GET',
                            dataType: "json",
-
                            success: function (data) {
-                               console.log(data);
-                               $('.date-selected').html('Chosen Date: ' + date.format());
-                               $('.json-date').val(date.format());
+                               $('#date_selected').html(date.format());
+                               $('#json_date').val(date.format());
                                $.each(data, function (key, value) {
 
                                    if ((date.format()) === value.date) {
-                                       console.log(value);
 
                                        var option1 = "08:00:00";
                                        var option2 = "09:00:00";
@@ -132,8 +147,6 @@ $(document).ready(function(){
                                });
                            }
                         });
-
-
                     });
                 }
             });
