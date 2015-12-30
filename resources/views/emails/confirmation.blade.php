@@ -33,7 +33,7 @@
                         <tr align="center">
                             <td colspan=100% style="padding: 10px 50px 30px 50px; font-family: Arial, sans-serif">
                                 <p>This is to remind you that you have selected the following:</p>
-                                <p><font face="Arial, sans-serif"><span class="date">January 5, 2016</span> from <span class="time">2:00pm - 3:00pm</span>.</font></p>
+                                <p><font face="Arial, sans-serif"><span class="date">{{ $date }}</span> at <span class="time">{{ $time }}</span>.</font></p>
 
 
                             </td>
