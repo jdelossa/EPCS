@@ -3310,8 +3310,9 @@ $(document).ready(function(){
                            type: 'GET',
                            dataType: "json",
                            success: function (data) {
-                               $('#date_selected').html(date.format());
+                               $('#date_selected').html(date.format('MMMM DD, YYYY'));
                                $('#json_date').val(date.format());
+
                                $.each(data, function (key, value) {
 
                                    if ((date.format()) === value.date) {

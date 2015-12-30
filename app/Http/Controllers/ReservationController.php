@@ -7,9 +7,9 @@ use App\Http\Requests\ReservationRequest;
 use App\Reservation;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaScript;
 use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Mail;
 
 class ReservationController extends Controller
 {
@@ -44,7 +44,17 @@ class ReservationController extends Controller
         $reservation->email           = Input::get('physician_email');
 
         if ($reservation->save())
+        {
+            $data = ['date' => $reservation->date, 'time' => $reservation->time];
+
+            Mail::send('emails.confirmation', $data, function ($m) use ($reservation) {
+                $m->from('DoNotReply@winthrop.org', 'Winthrop-University Hospital');
+                $m->to($reservation->email, $reservation->email)->subject('Your Reminder!');
+            });
+
             return response()->json(['message' => 'Submission successful.']);
+        }
+
     }
 
     public function getTimes()
