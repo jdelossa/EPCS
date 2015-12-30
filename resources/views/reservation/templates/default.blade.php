@@ -29,7 +29,7 @@
         <div class="container">
             <div class="navbar-header">
                 <img src="img/WinthropLogo.png" alt="Winthrop Logo">
-                <a class="navbar-brand" href="#">EPCS ID Proofing Scheduler</a>
+                <a class="navbar-brand" href="/">EPCS ID Proofing Scheduler</a>
             </div>
         </div>
     </nav>

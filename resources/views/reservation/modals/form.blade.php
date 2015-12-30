@@ -14,32 +14,32 @@
                         <div class="selection-radio">
                             <label>
                                 <input type="radio" name="time_selection" value="8:00:00" checked>
-                                8:00am - 9:00am <span class="spots-left">(<span class="option1"></span> spots left)</span>
+                                8:00am - 9:00am <span class="spots-left">(<span class="option1">40</span> spots left)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="9:00:00">
-                                9:00am - 10:00am <span class="spots-left">(<span class="option2"></span> spots left)</span>
+                                9:00am - 10:00am <span class="spots-left">(<span class="option2">40</span> spots left)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="10:00:00">
-                                10:00am - 11:00am <span class="spots-left">(<span class="option3"></span> spots left)</span>
+                                10:00am - 11:00am <span class="spots-left">(<span class="option3">40</span> spots left)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="11:00:00">
-                                11:00am - 12:00pm <span class="spots-left">(<span class="option4"></span> spots left)</span>
+                                11:00am - 12:00pm <span class="spots-left">(<span class="option4">40</span> spots left)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="12:00:00">
-                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5"></span> spots left)</span>
+                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5">40</span> spots left)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="13:00:00">
-                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6"></span> spots left)</span>
+                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6">40</span> spots left)</span>
                             </label>
 
 

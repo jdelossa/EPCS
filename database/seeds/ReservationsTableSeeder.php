@@ -41,7 +41,7 @@ class ReservationsTableSeeder extends Seeder {
             '13:00:00'
         ];
 
-        foreach(range(1,90) as $index)
+        foreach(range(1,200) as $index)
         {
             Reservation::create([
                 'id'            => $index,

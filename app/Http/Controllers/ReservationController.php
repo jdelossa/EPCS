@@ -36,14 +36,15 @@ class ReservationController extends Controller
     public function store(ReservationRequest $request)
     {
         $reservation = Reservation::firstOrCreate(['email' => Input::get('physician_email')]);
-        $reservation->date            = Input::get('json_date');
-        $reservation->time            = Input::get('time_selection');
-        $reservation->first_name      = Input::get('physician_first_name');
-        $reservation->last_name       = Input::get('physician_last_name');
-        $reservation->specialty       = Input::get('physician_specialty');
-        $reservation->email           = Input::get('physician_email');
+        $reservation->date = Input::get('json_date');
+        $reservation->time = Input::get('time_selection');
+        $reservation->first_name = Input::get('physician_first_name');
+        $reservation->last_name = Input::get('physician_last_name');
+        $reservation->specialty = Input::get('physician_specialty');
+        $reservation->email = Input::get('physician_email');
 
         if ($reservation->save())
+
         {
             $data = ['date' => $reservation->date, 'time' => $reservation->time];
 
@@ -52,9 +53,8 @@ class ReservationController extends Controller
                 $m->to($reservation->email, $reservation->email)->subject('Your Reminder!');
             });
 
-            return response()->json(['message' => 'Submission successful.']);
+            return response()->json(['first_name' => $reservation->first_name, 'message' => 'Submission Successful']);
         }
-
     }
 
     public function getTimes()
@@ -67,5 +67,4 @@ class ReservationController extends Controller
             ->groupBy('date')
             ->get();
     }
-
 }
