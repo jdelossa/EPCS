@@ -42,6 +42,10 @@ $(document).ready(function(){
 
     var calendar = {
         init : function(){
+            this.dates = [
+                '2016-01-19',
+                '2016-01-20'
+            ];
             this.reservations = reservations;
             this.build();
         },
@@ -77,78 +81,83 @@ $(document).ready(function(){
                     }
                 },
                 dayClick: function(date, jsEvent, view) {
-                    $("#fullCalModal").modal("show");
 
-                    $('#fullCalModal').on('shown.bs.modal', function (e) {
-                        $.ajax({
-                           url: '/times',
-                           type: 'GET',
-                           dataType: "json",
-                           success: function (data) {
-                               $('#date_selected').html(date.format('MMMM DD, YYYY'));
-                               $('#json_date').val(date.format());
+                    if($.inArray(date.format() , calendar.dates) !== -1)
+                    {
+                        $("#fullCalModal").modal("show");
 
-                               $.each(data, function (key, value) {
+                        $('#fullCalModal').on('shown.bs.modal', function (e) {
+                            $.ajax({
+                                url: '/times',
+                                type: 'GET',
+                                dataType: "json",
+                                success: function (data) {
+                                    $('#date_selected').html(date.format('MMMM DD, YYYY'));
+                                    $('#json_date').val(date.format());
 
-                                   if ((date.format()) === value.date) {
+                                    $.each(data, function (key, value) {
 
-                                       var option1 = "08:00:00";
-                                       var option2 = "09:00:00";
-                                       var option3 = "10:00:00";
-                                       var option4 = "11:00:00";
-                                       var option5 = "12:00:00";
-                                       var option6 = "13:00:00";
-                                       var count = 40;
+                                        if ((date.format()) === value.date) {
 
-                                       if ((value.count) < count) {
-                                           switch (true) {
-                                               case ((value.time == option1)):
-                                                   $('.option1').empty().append(count - value.count);
-                                                   break;
-                                               case ((value.time == option2)):
-                                                   $('.option2').empty().append(count - value.count);
-                                                   break;
-                                               case ((value.time == option3)):
-                                                   $('.option3').empty().append(count - value.count);
-                                                   break;
-                                               case ((value.time == option4)):
-                                                   $('.option4').empty().append(count - value.count);
-                                                   break;
-                                               case ((value.time == option5)):
-                                                   $('.option5').empty().append(count - value.count);
-                                                   break;
-                                               case ((value.time == option6)):
-                                                   $('.option6').empty().append(count - value.count);
-                                                   break;
-                                           }
-                                       }
-                                       else if ((value.count) >= count) {
-                                           switch (true) {
-                                               case ((value.time == option1)):
-                                                   $('.option1').empty().append(0);
-                                                   break;
-                                               case ((value.time == option2)):
-                                                   $('.option2').empty().append(0);
-                                                   break;
-                                               case ((value.time == option3)):
-                                                   $('.option3').empty().append(0);
-                                                   break;
-                                               case ((value.time == option4)):
-                                                   $('.option4').empty().append(0);
-                                                   break;
-                                               case ((value.time == option5)):
-                                                   $('.option5').empty().append(0);
-                                                   break;
-                                               case ((value.time == option6)):
-                                                   $('.option6').empty().append(0);
-                                                   break;
-                                           }
-                                       }
-                                   }
-                               });
-                           }
+                                            var option1 = "08:00:00";
+                                            var option2 = "09:00:00";
+                                            var option3 = "10:00:00";
+                                            var option4 = "11:00:00";
+                                            var option5 = "12:00:00";
+                                            var option6 = "13:00:00";
+                                            var count = 40;
+
+                                            if ((value.count) < count) {
+                                                switch (true) {
+                                                    case ((value.time == option1)):
+                                                        $('.option1').empty().append(count - value.count);
+                                                        break;
+                                                    case ((value.time == option2)):
+                                                        $('.option2').empty().append(count - value.count);
+                                                        break;
+                                                    case ((value.time == option3)):
+                                                        $('.option3').empty().append(count - value.count);
+                                                        break;
+                                                    case ((value.time == option4)):
+                                                        $('.option4').empty().append(count - value.count);
+                                                        break;
+                                                    case ((value.time == option5)):
+                                                        $('.option5').empty().append(count - value.count);
+                                                        break;
+                                                    case ((value.time == option6)):
+                                                        $('.option6').empty().append(count - value.count);
+                                                        break;
+                                                }
+                                            }
+                                            else if ((value.count) >= count) {
+                                                switch (true) {
+                                                    case ((value.time == option1)):
+                                                        $('.option1').empty().append(0);
+                                                        break;
+                                                    case ((value.time == option2)):
+                                                        $('.option2').empty().append(0);
+                                                        break;
+                                                    case ((value.time == option3)):
+                                                        $('.option3').empty().append(0);
+                                                        break;
+                                                    case ((value.time == option4)):
+                                                        $('.option4').empty().append(0);
+                                                        break;
+                                                    case ((value.time == option5)):
+                                                        $('.option5').empty().append(0);
+                                                        break;
+                                                    case ((value.time == option6)):
+                                                        $('.option6').empty().append(0);
+                                                        break;
+                                                }
+                                            }
+                                        }
+                                    });
+                                }
+                            });
                         });
-                    });
+                    }
+
                 }
             });
         }
