@@ -8,6 +8,8 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaScript;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Mail;
 
 class ReservationController extends Controller
 {
@@ -48,8 +50,8 @@ class ReservationController extends Controller
         $reservation->email           = Input::get('physician-email');
         $reservation->save();
 
-        // redirect
-        return redirect('/')->with('status', 'Thank you! You will recieve a confirmation email shortly.');
+        return Redirect::back()->with('status', 1);
+
     }
 
     public function getTimes()
