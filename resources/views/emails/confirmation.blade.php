@@ -35,7 +35,6 @@
                                 <p>This is to remind you that you have selected the following:</p>
                                 <p><font face="Arial, sans-serif"><span class="date">{{ $date }}</span> at <span class="time">{{ $time }}</span>.</font></p>
 
-
                             </td>
                         </tr>
                     </table>

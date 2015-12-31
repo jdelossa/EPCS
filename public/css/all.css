@@ -56,6 +56,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.fc-day {
+  pointer-events: none;
+}
+
 /* Navigation */
 .navbar-static-top {
   background-color: #3e7698;
@@ -95,6 +99,7 @@ body {
 }
 .fc-bgevent {
   opacity: 1 !important;
+  cursor: hand; cursor: pointer;
 }
 .fc-row table {
   border-left: 0 !important;
@@ -109,7 +114,6 @@ body {
   padding-top: 30px;
   text-align: center;
 }
-
 .high {
   color: #145730;
 }

@@ -1,7 +1,7 @@
 @extends('reservation.templates.default')
 
 @section('content')
-
+    <script type="text/javascript" src="js/main.js"></script>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-md-push-9">
