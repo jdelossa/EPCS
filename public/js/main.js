@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('#fullCalModal').on('hidden.bs.modal', function (e) {
         $('form').parsley().reset();
         $('form').find('input[type="text"], input[type="email"]').val('');
+        location.reload();
     }
     ).on('shown.bs.modal', function (e) {
         $('form').parsley();
@@ -28,7 +29,7 @@ $(document).ready(function(){
                     $(".modal-dialog").removeClass('modal-lg');
                     $(".modal-title").empty().html(data.message);
                     $(".modal-header").css('background', '#57AD57');
-                    $(".modal-body").empty().append("Thank you, "+data.first_name+"! You will receive an email shortly.");
+                    $(".modal-body").empty().append("Thank you! You will receive an email shortly.");
 
                     // Refresh on modal close
                     $('#fullCalModal').on('hide.bs.modal', function (e) {
@@ -45,22 +46,10 @@ $(document).ready(function(){
     var calendar = {
         init : function(){
             this.dates = [
-                '2016-01-18',
                 '2016-01-19',
                 '2016-01-20',
                 '2016-01-21',
-                '2016-01-25',
-                '2016-01-26',
-                '2016-01-27',
-                '2016-01-28',
-                '2016-02-01',
-                '2016-02-02',
-                '2016-02-03',
-                '2016-02-04',
-                '2016-02-08',
-                '2016-02-09',
-                '2016-02-10',
-                '2016-02-11'
+                '2016-01-22',
             ];
 
             this.defaultEvents = this.defaults(this.dates);
@@ -89,7 +78,6 @@ $(document).ready(function(){
                     right: 'next'
                 },
                 aspectRatio: 1.2,
-                defaultDate: '2016-01-18',
                 eventSources: [
                     {
                         events: this.defaultEvents,
@@ -104,91 +92,59 @@ $(document).ready(function(){
                 ],
                 eventRender:  function(reservation, element){
                     switch (true) {
-                        case (reservation.count == 240):
-                            element.append("<p class='event-title zero zero-bg'>No<br>Availability </p>");
+                        case (reservation.count > 250):
+                            element.append("<p class='event-title low low-bg'>High <br>Volume</p>");
                             break;
-                        case (reservation.count > 120 && reservation.count < 240):
-                            element.append("<p class='event-title low low-bg'>Low <br>Availability</p>");
+                        case (reservation.count > 100 && reservation.count <= 250):
+                            element.append("<p class='event-title medium medium-bg'>Medium <br>Volume</p>");
                             break;
-                        case (reservation.count > 60 && reservation.count <= 120):
-                            element.append("<p class='event-title medium medium-bg'>Medium <br>Availability</p>");
-                            break;
-                        case (reservation.count < 60 || reservation.count == 60 ):
-                            element.append("<p class='event-title high high-bg'>High <br>Availability</p>");
+                        case (reservation.count < 100):
+                            element.append("<p class='event-title high high-bg'>Low <br>Volume</p>");
                             break;
                     }
                 },
                 dayClick: function(date, jsEvent, view) {
-
-                    if($.inArray(date.format() , calendar.dates) !== -1)
+                    if($.inArray(date.format(), calendar.dates) !== -1)
                     {
                         $("#fullCalModal").modal("show");
+                        $('#fullCalModal').on('shown.bs.modal', function () {
 
-                        $('#fullCalModal').on('shown.bs.modal', function (e) {
+                            $('#date_selected').html(date.format('MMMM DD, YYYY'));
+                            $('#json_date').val(date.format());
+
                             $.ajax({
-                                url: '/times',
+                                url: '/times/{date}',
                                 type: 'GET',
+                                data: { date: date.format() },
                                 dataType: "json",
                                 success: function (data) {
-                                    $('#date_selected').html(date.format('MMMM DD, YYYY'));
-                                    $('#json_date').val(date.format());
-
-                                    $.each(data, function (key, value) {
-
-                                        if ((date.format()) === value.date) {
-
-                                            var option1 = "08:00:00";
-                                            var option2 = "09:00:00";
-                                            var option3 = "10:00:00";
-                                            var option4 = "11:00:00";
-                                            var option5 = "12:00:00";
-                                            var option6 = "13:00:00";
-                                            var count = 40;
-
-                                            if ((value.count) < count) {
-                                                switch (true) {
-                                                    case ((value.time == option1)):
-                                                        $('.option1').empty().append(count - value.count);
-                                                        break;
-                                                    case ((value.time == option2)):
-                                                        $('.option2').empty().append(count - value.count);
-                                                        break;
-                                                    case ((value.time == option3)):
-                                                        $('.option3').empty().append(count - value.count);
-                                                        break;
-                                                    case ((value.time == option4)):
-                                                        $('.option4').empty().append(count - value.count);
-                                                        break;
-                                                    case ((value.time == option5)):
-                                                        $('.option5').empty().append(count - value.count);
-                                                        break;
-                                                    case ((value.time == option6)):
-                                                        $('.option6').empty().append(count - value.count);
-                                                        break;
-                                                }
-                                            }
-                                            else if ((value.count) >= count) {
-                                                switch (true) {
-                                                    case ((value.time == option1)):
-                                                        $('.option1').empty().append(0);
-                                                        break;
-                                                    case ((value.time == option2)):
-                                                        $('.option2').empty().append(0);
-                                                        break;
-                                                    case ((value.time == option3)):
-                                                        $('.option3').empty().append(0);
-                                                        break;
-                                                    case ((value.time == option4)):
-                                                        $('.option4').empty().append(0);
-                                                        break;
-                                                    case ((value.time == option5)):
-                                                        $('.option5').empty().append(0);
-                                                        break;
-                                                    case ((value.time == option6)):
-                                                        $('.option6').empty().append(0);
-                                                        break;
-                                                }
-                                            }
+                                    console.log(data);
+                                    Object.keys(data).forEach(function(key) {
+                                        switch (data[key].time) {
+                                            case ("08:00:00"):
+                                                $('#option1').empty().append(data[key].count);
+                                                break;
+                                            case ("09:00:00"):
+                                                $('#option2').empty().append(data[key].count);
+                                                break;
+                                            case ("10:00:00"):
+                                                $('#option3').empty().append(data[key].count);
+                                                break;
+                                            case ("11:00:00"):
+                                                $('#option4').empty().append(data[key].count);
+                                                break;
+                                            case ("12:00:00"):
+                                                $('#option5').empty().append(data[key].count);
+                                                break;
+                                            case ("13:00:00"):
+                                                $('#option6').empty().append(data[key].count);
+                                                break;
+                                            case ("14:00:00"):
+                                                $('#option7').empty().append(data[key].count);
+                                                break;
+                                            case ("15:00:00"):
+                                                $('#option8').empty().append(data[key].count);
+                                                break;
                                         }
                                     });
                                 }
@@ -196,6 +152,7 @@ $(document).ready(function(){
                         });
                     }
                 }
+
             });
         }
     };

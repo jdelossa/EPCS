@@ -24,7 +24,7 @@
         <table align="center" border="0" cellpadding="10" cellspacing="10" bgcolor="#ffffff" style="padding-top: 50px; border-collapse: collapse; border: solid 1px #e3dede;">
             <tr>
                 <td class="header" width="600" bgcolor="#ffffff" align="center" style="padding: 40px 40px 0 40px;">
-                    <h1 style="padding-bottom: 20px; border-bottom: solid 1px #e5e5e5;"><font face="Arial, sans-serif">EPCS ID Proofing Scheduler Confirmation</font></h1>
+                    <h1 style="padding-bottom: 20px; border-bottom: solid 1px #e5e5e5;"><font face="Arial, sans-serif">EPCS ID Proofing Confirmation</font></h1>
                 </td>
             </tr>
             <tr>
@@ -38,12 +38,14 @@
 
                                 $time = Carbon::createFromTimestamp(strtotime($time));
 
-                                $startTime  = $time->format('h:m a');
-                                $endTime    = $time->addHour()->format('h:m a');
+                                $startTime  = $time->format('h:sa');
+                                $endTime    = $time->addHour()->format('h:sa');
 
                                 ?>
-                                <p>This is to remind you that you have selected the following day and time to be fingerprinted:</p>
-                                <p><font face="Arial, sans-serif"><span class="date">{{ $date }}</span> at <span class="time">{{ $startTime }} - {{ $endTime }}</span>.</font></p>
+                                <p><strong>This is to remind you that you have selected the following day and time to be fingerprinted:</strong></p>
+                                <p><font face="Arial, sans-serif"><span class="date">{{ date('M d, Y', strtotime($date)) }}</span> between <span class="time">{{ $startTime }} - {{ $endTime }}</span>.</font></p>
+
+                                <p>Please arrive at the Hospital's Fifth Floor Lobby Area during the timeframe shown above with valid government-issued identification.</p>
 
                             </td>
                         </tr>

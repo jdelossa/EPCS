@@ -96,6 +96,10 @@ body {
   margin-bottom: 20px;
 }
 
+.fc.fc-ltr.fc-unthemed{
+  background: #fff;
+}
+
 .fc-toolbar{
   background: #ddd;
   margin-bottom: 0;
