@@ -32,8 +32,18 @@
                     <table class="content" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr align="center">
                             <td colspan=100% style="padding: 10px 50px 30px 50px; font-family: Arial, sans-serif">
-                                <p>This is to remind you that you have selected the following:</p>
-                                <p><font face="Arial, sans-serif"><span class="date">{{ $date }}</span> at <span class="time">{{ $time }}</span>.</font></p>
+                                <?php
+
+                                use Carbon\Carbon;
+
+                                $time = Carbon::createFromTimestamp(strtotime($time));
+
+                                $startTime  = $time->format('h:m a');
+                                $endTime    = $time->addHour()->format('h:m a');
+
+                                ?>
+                                <p>This is to remind you that you have selected the following day and time to be fingerprinted:</p>
+                                <p><font face="Arial, sans-serif"><span class="date">{{ $date }}</span> at <span class="time">{{ $startTime }} - {{ $endTime }}</span>.</font></p>
 
                             </td>
                         </tr>

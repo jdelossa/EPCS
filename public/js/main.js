@@ -25,17 +25,10 @@ $(document).ready(function(){
                 data: $('#reservation_form').serialize(),
                 dataType: 'json',
                 success: function(data){
-                    /* If the AJAX request was successful, that means no exceptions
-                        were thrown and the record was saved. So this is where you
-                        can signal to the user it was a success.  For example,
-                        you can replace the form with a fade-in success message.
-                     */
-
                     $(".modal-dialog").removeClass('modal-lg');
                     $(".modal-title").empty().html(data.message);
                     $(".modal-header").css('background', '#57AD57');
                     $(".modal-body").empty().append("Thank you, "+data.first_name+"! You will receive an email shortly.");
-
 
                     // Refresh on modal close
                     $('#fullCalModal').on('hide.bs.modal', function (e) {
@@ -56,24 +49,36 @@ $(document).ready(function(){
                 '2016-01-19',
                 '2016-01-20',
                 '2016-01-21',
-                // week 2
                 '2016-01-25',
                 '2016-01-26',
                 '2016-01-27',
                 '2016-01-28',
-                // week 3
                 '2016-02-01',
                 '2016-02-02',
                 '2016-02-03',
                 '2016-02-04',
-                // week 4
                 '2016-02-08',
                 '2016-02-09',
                 '2016-02-10',
                 '2016-02-11'
             ];
+
+            this.defaultEvents = this.defaults(this.dates);
             this.reservations = reservations;
             this.build();
+        },
+        defaults : function(dates){
+
+            var defaultDates = [];
+
+            dates.forEach(function(date){
+                defaultDates.push({
+                    start: date,
+                    count: 0
+                });
+            });
+
+            return defaultDates;
         },
         build : function() {
             $('#calendar').fullCalendar({
@@ -85,12 +90,18 @@ $(document).ready(function(){
                 },
                 aspectRatio: 1.2,
                 defaultDate: '2016-01-18',
-                eventSources: {
-                    events: this.reservations,
-                    rendering: 'background',
-                    color: 'white'
-                },
-
+                eventSources: [
+                    {
+                        events: this.defaultEvents,
+                        rendering: 'background',
+                        color: 'white'
+                    },
+                    {
+                        events: this.reservations,
+                        rendering: 'background',
+                        color: 'white'
+                    },
+                ],
                 eventRender:  function(reservation, element){
                     switch (true) {
                         case (reservation.count == 240):
@@ -107,7 +118,6 @@ $(document).ready(function(){
                             break;
                     }
                 },
-
                 dayClick: function(date, jsEvent, view) {
 
                     if($.inArray(date.format() , calendar.dates) !== -1)
@@ -185,7 +195,6 @@ $(document).ready(function(){
                             });
                         });
                     }
-
                 }
             });
         }
