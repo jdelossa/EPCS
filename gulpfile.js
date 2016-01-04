@@ -26,6 +26,7 @@ elixir(function(mix) {
         '/bower/bootstrap/dist/js/bootstrap.min.js',
         '/bower/moment/moment.js',
         '/bower/parsleyjs/dist/parsley.min.js',
-        '/bower/fullcalendar/dist/fullcalendar.min.js'
+        '/bower/fullcalendar/dist/fullcalendar.min.js',
+        '/bower/Chart.js/Chart.min.js'
     ], null, 'resources/assets')
 });
