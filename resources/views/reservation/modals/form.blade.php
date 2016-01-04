@@ -14,32 +14,42 @@
                         <div class="selection-radio">
                             <label>
                                 <input type="radio" name="time_selection" value="8:00:00" checked>
-                                8:00am - 9:00am <span class="spots-left">(<span class="option1">40</span> spots left)</span>
+                                8:00am - 9:00am <span class="spots-left">(<span id="option1">0</span> signed up)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="9:00:00">
-                                9:00am - 10:00am <span class="spots-left">(<span class="option2">40</span> spots left)</span>
+                                9:00am - 10:00am <span class="spots-left">(<span id="option2">0</span> signed up)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="10:00:00">
-                                10:00am - 11:00am <span class="spots-left">(<span class="option3">40</span> spots left)</span>
+                                10:00am - 11:00am <span class="spots-left">(<span id="option3">0</span> signed up)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="11:00:00">
-                                11:00am - 12:00pm <span class="spots-left">(<span class="option4">40</span> spots left)</span>
+                                11:00am - 12:00pm <span class="spots-left">(<span id="option4">0</span> signed up)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="12:00:00">
-                                12:00pm - 1:00pm <span class="spots-left">(<span class="option5">40</span> spots left)</span>
+                                12:00pm - 1:00pm <span class="spots-left">(<span id="option5">0</span> signed up)</span>
                             </label>
 
                             <label>
                                 <input type="radio" name="time_selection" value="13:00:00">
-                                1:00pm - 2:00pm <span class="spots-left">(<span class="option6">40</span> spots left)</span>
+                                1:00pm - 2:00pm <span class="spots-left">(<span id="option6">0</span> signed up)</span>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="time_selection" value="14:00:00">
+                                2:00pm - 3:00pm <span class="spots-left">(<span id="option7">0</span> signed up)</span>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="time_selection" value="15:00:00">
+                                3:00pm - 4:00pm <span class="spots-left">(<span id="option8">0</span> signed up)</span>
                             </label>
 
 
@@ -57,7 +67,7 @@
                                 'class'         => 'form-control',
                                 'maxlength'     => '30',
                                 'minlength'     => '2',
-                                'placeholder'   => 'John',
+                                'placeholder'   => 'First Name',
                                 'required',
                                 'autofocus'
                                 ))
@@ -70,7 +80,7 @@
                                 'class'         => 'form-control',
                                 'maxlength'     => '30',
                                 'minlength'     => '2',
-                                'placeholder'   => 'Smith',
+                                'placeholder'   => 'Last Name',
                                 'required'
                                 ))
                             !!}
@@ -82,12 +92,12 @@
                                 'class'         => 'form-control',
                                 'maxlength'     => '30',
                                 'minlength'     => '2',
-                                'placeholder'   => 'Radiology',
+                                'placeholder'   => 'Specialty',
                                 'required'
                                 ))
                             !!}
 
-                            {!! Form::label('physician_email', 'Your Winthrop Email Address')!!}
+                            {!! Form::label('physician_email', 'Your Email Address')!!}
                             {!! Form::email('physician_email', '',
                                 array(
                                 'id'            => 'physician_email',

@@ -1,10 +1,9 @@
 <?php
-// main view
+
 Route::get('/', 'ReservationController@index');
 Route::resource('reservations', 'ReservationController');
 
-Route::get('times', 'ReservationController@getTimes');
+Route::get('times/{date}', 'ReservationController@getReservationsByDate');
 
-// list view
 Route::get('list', 'ListController@index');
 Route::resource('list', 'ListController');

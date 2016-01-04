@@ -50,21 +50,22 @@ class ReservationController extends Controller
 
             Mail::send('emails.confirmation', $data, function ($m) use ($reservation) {
                 $m->from('DoNotReply@winthrop.org', 'Winthrop-University Hospital');
-                $m->to($reservation->email, $reservation->email)->subject('Your Reminder!');
+                $m->to($reservation->email, $reservation->email)->subject('EPCS Fingerprinting Reminder');
             });
 
             return response()->json(['first_name' => $reservation->first_name, 'message' => 'Submission Successful']);
         }
     }
 
-    public function getTimes()
+    /**
+     * Return times and their count for the date specified.
+     *
+     * @return mixed
+     */
+    public function getReservationsByDate()
     {
-        return DB::table('reservations')
-            ->select(DB::raw('count(*) as count', 'time'))
-            ->addSelect('time')
-            ->groupby('time')
-            ->addSelect('date')
-            ->groupBy('date')
-            ->get();
+        $date = $_GET['date'];
+
+        return DB::table('reservations')->select(DB::raw('count(*) as count', 'time'))->where('date', $date)->addSelect('time')->groupby('time')->get();
     }
 }

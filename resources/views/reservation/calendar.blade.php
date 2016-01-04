@@ -4,10 +4,10 @@
     <script type="text/javascript" src="js/main.js"></script>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-md-push-9">
+            <div class="col-md-4">
                 @include('reservation.sidebar')
             </div>
-            <div class="col-md-9 col-md-pull-3">
+            <div class="col-md-8">
                 <div class="calendar-container">
                     <div id="calendar"></div>
                 </div>
