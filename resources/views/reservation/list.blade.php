@@ -4,51 +4,74 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <table class="table table-striped table-bordered table-hover">
-                    <thead>
-                        <tr>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Email</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Physicians Per Day</div>
+                    <div class="panel-body">
+                        <canvas id="list_view" height="400"></canvas>
+                        <script type="text/javascript">
+                            var reservations = <?php echo json_encode($reservations); ?>;
+                            var data = reservations;
+                            // dates
+                            var dates = [];
+                            for (var i = 0; i < data.length; i++) {
+                                dates.push(data[i].date.replace('2016-', ''));
+                            }
+                            // count
+                            var count =[];
+                            for (var i = 0; i < data.length; i++) {
+                                count.push(data[i].count);
+                            }
+                            // bar graph data
+                            var barData = {
 
-                    @foreach($reservations as $reservation)
-                    <tr>
-                        <td>{{ $reservation->first_name }}</td>
-                        <td>{{ $reservation->last_name }}</td>
-                        <td><a href="mailto:{{ $reservation->email}}">{{ $reservation->email}}</a></td>
-                        <td>{{ $reservation->date }}</td>
-                        <td>{{ $reservation->time }}</td>
-                    </tr>
-                    @endforeach
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-3">
-                <table class="table table-striped table-bordered table-hover">
-                    <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Count</th>
-                    </tr>
-                    </thead>
-                    <tbody>
+                                labels : dates,
+                                datasets : [
+                                    {
+                                        fillColor : "#6094B3",
+                                        strokeColor : "#3786B5",
+                                        data: count
+                                    }
+                                ]
+                            }
+                            // get bar chart canvas
+                            var list_view = document.getElementById("list_view").getContext("2d");
+                            // draw bar chart
+                            new Chart(list_view).Bar(barData, {
+                                scaleShowGridLines : false,
+                                barValueSpacing : 100,
+                                barDatasetSpacing : 100,
+                            });
+                        </script>
+                    </div>
+                </div>
 
-                    @foreach($dateCount as $count)
-                        <tr>
-                            <td>{{ $count->date }}</td>
-                            <td>{{ $count->count }}</td>
-                        </tr>
-                    @endforeach
-                    </tbody>
-                </table>
             </div>
         </div>
+        <div class="row">
+
+            @foreach($dateCount as $count)
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        {{ date('M d, Y', strtotime($count->date)) }}
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <td>{{ $count->time }} - end</td>
+                                    <td>{{ $count->count}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
     </div>
+
 
 @endsection

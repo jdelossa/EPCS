@@ -19,18 +19,16 @@ class ListController extends Controller
     {
         $reservations = DB::table('reservations')
             ->orderBy('date', 'asc')
-            ->select('email')
-            ->addSelect('date')
-            ->addSelect('time')
-            ->orderBy('time', 'asc')
-            ->addSelect('first_name')
-            ->addSelect('last_name')
+            ->groupBy('date')
+            ->select('date')
+            ->addSelect(DB::raw('count(*) as count, date'))
             ->get();
 
         $dateCount = DB::table('reservations')
-            ->select(DB::raw('count(*) as count, date'))
+            ->orderBy('date', 'asc')
             ->groupBy('date')
-            ->addSelect('date')
+            ->select('date', 'time')
+            ->addSelect(DB::raw('count(*) as count, time'))
             ->get();
 
         return view('reservation.list')->with('reservations', $reservations)->with('dateCount', $dateCount);

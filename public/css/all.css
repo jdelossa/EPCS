@@ -52,7 +52,7 @@ textarea.parsley-error {
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
 body {
-  background: #f2f4f5;
+  background: #fafafa;
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -96,8 +96,8 @@ body {
   margin-bottom: 20px;
 }
 
-.fc.fc-ltr.fc-unthemed{
-  background: #fff;
+.fc{
+  background: #ffffff;
 }
 
 .fc-toolbar{
@@ -290,6 +290,12 @@ footer {
 }
 footer p {
   color: #ffffff;
+}
+
+/* Chart */
+#list_view {
+  height: 400px;
+  width: 100%;
 }
 
 /* Universial */
